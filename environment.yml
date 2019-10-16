@@ -1,0 +1,11 @@
+name: colormap-analysis
+channels:
+  - conda-forge
+  - defaults
+  - nsidc
+dependencies:
+  - python=3.7.3
+  - pip:
+    - viscm==0.9
+    - pyqt5
+    - scipy
